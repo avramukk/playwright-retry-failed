@@ -4,7 +4,7 @@ test('article 1 ', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
 
-  await expect(page).toHaveTitle(/Playwrights/);
+  await expect(page).toHaveTitle(/Playwright/);
 });
 
 test('article 2', async ({ page }) => {
